@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "burger-app"
+    }
+  },
+  "defaultProject": "burger-app",
+  "cli": {
+    "analytics": false
+  }
 }
