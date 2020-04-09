@@ -22,6 +22,6 @@ export class SummaryComponent {
 
   updateSum(c: Item[]) {
     this.sum = 0;
-    c.forEach(i => this.sum += i.amount)
+    c.forEach(i => this.sum += i.amount);
   }
 }
