@@ -18,6 +18,5 @@ export class CartLoadAction implements Action {
 
 export class CartLoadedAction implements Action {
     type = CART_LOADED;
-	
     constructor(public items: Array<Item>) {}
 }

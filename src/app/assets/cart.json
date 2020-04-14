@@ -1,16 +1,20 @@
 [{
     "id": "Burger",
-    "amount": 2
+    "amount": 2,
+    "description": "a simple burger"
 },
 {
     "id": "French fries",
-    "amount": 0
+    "amount": 0,
+    "description": "very salty fries"
 },
 {
     "id": "Cola",
-    "amount": 1
+    "amount": 1,
+    "description": "a coke"
 },
 {
     "id": "Sinalco",
-    "amount": 55
+    "amount": 55,
+    "description": "a simple beverage"
 }]

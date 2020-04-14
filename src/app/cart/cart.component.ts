@@ -18,6 +18,7 @@ export class CartComponent implements OnInit {
 
   constructor(public store: Store<State>) {
     this.cart = store.pipe(select((state: State) => state.cart));
+    console.log(this.cart);
   }
 
   ngOnInit() {

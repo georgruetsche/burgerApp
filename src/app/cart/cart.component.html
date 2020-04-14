@@ -2,6 +2,7 @@
     <tr *ngFor="let item of cart  | async">
       <td>{{item.id}}</td>
       <td>{{item.amount}}</td>
+      <td>{{item.description}}</td>
       <td><button (click)="onItemAdd(item.id)">Add Item</button></td>
     </tr>
   </table>
